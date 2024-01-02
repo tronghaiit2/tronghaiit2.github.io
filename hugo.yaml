@@ -1,7 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Trong Hai's Profile"
-theme: hugo-profile
 
 outputs:
   home:
@@ -29,11 +28,11 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /images
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -116,7 +115,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: true
+      disableProjects: false
       disableAchievements: false
       disableContact: false
 
@@ -127,7 +126,7 @@ params:
     title: "Trong Hai Nguyen"
     subtitle: "Software Engineer at Viettel AI"
     content: "A passionate software engineer. I integrate AI models into Mobile Devices (on Android and iOS) and design code for smooth processing with high performance."
-    image: /images/hero.svg
+    image: /images/HaiNT.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -151,7 +150,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/HaiNT.jpg"
     content: |-
       I am a software developer with a passion for intelligent application development. I have a background in computer engineering and mathematics, and I have a strong interest in making information application smarter. I am currently working as a software developer at [Viettel AI.](https://viettelai.vn/) in Hanoi, VN. 
 
@@ -259,15 +258,15 @@ params:
       - title: Oct 2023
         content: THIRD PRIZE (Top 4) Viettel hearted AI challenges 2023.
         url: https://example.com
-        image: fav.png
+        # image: fav.png
       - title: Nov 2019
         content: The Excellence Scholarship of Hanoi University of Science and Technology.
         url: https://example.com
-        image: fav.png
+        # image: fav.png
       - title: July 2021
         content: IMPRESSIVE AWARD (Top 04 Call for Code) IBM Hackatho
         url: https://example.com
-        image: fav.png
+        # image: fav.png
       - title: 2020 - 2022
         content: Five consecutive semesters won the scholarship of Hanoi University of Science and Technology.
         url: https://example.com
@@ -278,12 +277,12 @@ params:
 
   # projects
   projects:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
       - title: Trong Hai's Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+        image: /images/projects/achivement.jpg
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
@@ -296,9 +295,8 @@ params:
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
+            
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
         image: /images/projects/converter.jpg
@@ -314,7 +312,7 @@ params:
 
       - title: Trong Hai's Profile V2
         content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/profile.jpg
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
