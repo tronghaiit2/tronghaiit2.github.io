@@ -154,7 +154,11 @@ params:
     content: |-
       I am a software developer with a passion for intelligent application development. I have a background in computer engineering and mathematics, and I have a strong interest in making information application smarter. I am currently working as a software developer at [Viettel AI.](https://viettelai.vn/) in Hanoi, VN. 
 
+      Only I am taking the work of integrating AI models into mobile devices. I had integrated face-detection, face-extraction, face-pose, finger-detection, … and some image algorithms such as brightness check, blurry check and specific processing logic for each problems.
+
       I am currently working on a project that will be used to help organizations and businesses identify users (eKYC - Electronic Know Your Customer).
+    
+
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -179,7 +183,32 @@ params:
           enable: true
           name: "View the projects"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [Viettel AI.](https://viettelai.vn/) in Hanoi, VN. I am currently working on a project that will be used to help organizations and businesses identify users (eKYC - Electronic Know Your Customer)."
+        content: |
+          I am currently working as a software developer at [Viettel AI.](https://viettelai.vn/) in Hanoi, VN. I am currently working on a project that will be used to help organizations and businesses identify users (eKYC - Electronic Know Your Customer).
+
+          Only I am taking the work of integrating AI models into mobile devices. I had integrated face-detection, face-extraction, face-pose, finger-detection, ... and some image algorithms such as brightness check, blurry check and specific processing logic for each problems.
+
+          Both face-detection and face-pose models are used to authenticate the customer's face, including checking face-liveliness. Besides, eKYC application includes a NFC module which scans ID card information via NFC and card-detection that detects the ID card to send image to an OCR (Optical Character Recognition) processing module at server.
+
+          - Parallel project 1: Face Liveliness
+
+            This is based on a sub-module of eKYC (using both face-detection and face-pose models). I customize for better liveliness check. The chalenging task is recording moving face from far to near process with a lot of navigation guides. After that, I must devise a algorithm choosing K images from recording process.
+
+          - Parallel project 2: NFC Scan
+
+            This is a sub-module of eKYC. I removed all UI, mobile apps can use NFC scanning flow via a call-back function.
+
+          - Previous project 1: Finger Scan
+
+            This is just finger-detection module, can be integrated with whole applications. The main task is processing the image after being detected. We had to convert image to match with the equivalent user's image in the customer's database (not show) and save it in .wsq format.
+
+          - Previous project 2: Timekeeping
+
+            This is my first project, I had to integrate face-detection and face-extraction models. Beside of online mode, I must save timekeeing in offline mode. The challenging task is each face only save maximum of K images in T seconds, the process will continue for each T seconds. On online mode, saved images must be resent and currently recorgnized user will be greeted with a voice and displayed information on the screen.
+
+            I also created a time-keeping management application, which helps users and managers go to work on time and remember timekeeping. Personal Information Mangement and Time keeping information are application concept.
+
+            I also designed and developed a back-end module at server that scans necessary notification campaigns table and sends detailed notifications to each user.
 
 
       - job: "Software Developer Intern"
@@ -296,7 +325,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
 
-            
+
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
         image: /images/projects/converter.jpg
