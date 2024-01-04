@@ -21,13 +21,13 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
@@ -262,13 +262,27 @@ params:
         date: "2018 - 2023"
         GPA: "3.74 out of 4.0"
         content: |-
+          [Graduate Representative spoke at the 2023 Graduation Ceremony.](https://www.facebook.com/watch/?v=639165821073416)
+          
           Extracurricular Activities
-            - Here
-            - Student Union
+            - [Speaker at "Win U Game season 1 - Tips for survival at university".](https://www.facebook.com/FPTSoftware.tuyendung/videos/197143602443189) 
+            >
+            - Organizing Committee of "HUST International Student Festival 2019"
+            >
+            - Speaker at "2019 Learning Methods Conference"
+            >
+            - Work at Vietnamese Students’ Association of Hanoi University of Science and Technology 
+              > Leader Study Support Team at Supporting Students Department.
+            - Work at Ho Chi Minh Communist Youth Union of Hanoi University of Science and Technology 
+              > Vice Chairman at Academic Support Club.
+            - Work at Soict Innovation Club (SINNO) belong to School of Information and Communication Technology 
+              > Founding member.
+
+
         featuredLink:
           enable: true
           name: "My academic record"
-          url: "https://example.com"
+          url: /materials/transcript/
       - title: "High School"
         school:
           name: "Bac Giang High School for Gifted Students"
@@ -286,19 +300,19 @@ params:
     items:
       - title: Oct 2023
         content: THIRD PRIZE (Top 4) Viettel hearted AI challenges 2023.
-        url: https://example.com
+        # url: https://example.com
         # image: fav.png
       - title: Nov 2019
         content: The Excellence Scholarship of Hanoi University of Science and Technology.
-        url: https://example.com
+        # url: https://example.com
         # image: fav.png
       - title: July 2021
         content: IMPRESSIVE AWARD (Top 04 Call for Code) IBM Hackatho
-        url: https://example.com
+        # url: https://example.com
         # image: fav.png
       - title: 2020 - 2022
         content: Five consecutive semesters won the scholarship of Hanoi University of Science and Technology.
-        url: https://example.com
+        # url: https://example.com
       - title: 2020 - 2022
         content: Three times received the title “Student with five good merits” City level, school year 2018 - 2019, 2019 - 2020, 2020 - 2021
         url: https://example.com
@@ -309,49 +323,50 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Trong Hai's Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/achivement.jpg
+      - title: Embedded System
+        content: A line-tracing robot ...
+        image: /images/projects/line_tracing.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://github.com/tronghaiit2/tronghaiit2.github.io
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Adruino"
+          - "L298N"
+          - "Embedded"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/tronghaiit2/tronghaiit2.github.io
+
+      - title: Thesis project
+        content: A gnss monitoring system ...
+        image: /images/projects/thesis_project_system.png
+        featured:
+          name: Demo
+          link: https://github.com/tronghaiit2/gnss_sdr_linux
+        badges:
+          - "GNSS_SDR"
+          - "S4"
+          - "Flutter"
+          - "Raspberry Pi 4"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:tronghaixh2000@gmail.com?subject=Hi%20Trong%20Hai%20Nguyen&body=Check%20it%20out:%20https%3a%2f%2ftronghaiit2.github.io%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/tronghaiit2/gnss_sdr_linux
 
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Freelance
+        content: Order food and beverage, and manage shippers ...
+        image: /images/projects/freelance.png
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://github.com/tronghaiit2/tronghaiit2.github.io
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Flutter"
+          - "Java"
+          - "Spring Boot"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Trong Hai's Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/tronghaiit2/tronghaiit2.github.io
 
   #Contact
   contact:
@@ -367,12 +382,12 @@ params:
     #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/tronghaiit2
       linkedin: https://www.linkedin.com/in/t-hai-nguyen-b45b0b1b7
