@@ -22,12 +22,12 @@ markup:
       unsafe: true
 
 # Menus:
-#   main:
-#     - identifier: blog
-#       name: Blog
-#       title: Blog posts
-#       url: /blogs
-#       weight: 1
+  # main:
+  #   - identifier: blog
+  #     name: Blog
+  #     title: Blog posts
+  #     url: /blogs
+  #     weight: 1
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
@@ -152,7 +152,7 @@ params:
     title: "About Me"
     image: "/images/HaiNT.jpg"
     content: |-
-      I am a software developer with a passion for intelligent application development. I have a background in computer engineering and mathematics, and I have a strong interest in making information application smarter. I am currently working as a software developer at [Viettel AI.](https://viettelai.vn/) in Hanoi, VN. 
+      I am a software developer with a passion for intelligent application development. I have a background in computer engineering and mathematics, and I have a strong interest in making information application smarter. I am currently working as a software developer at [Viettel AI](https://viettelai.vn/) in Hanoi, VN. 
 
       Only I am taking the work of integrating AI models into mobile devices. I had integrated face-detection, face-extraction, face-pose, finger-detection, … and some image algorithms such as brightness check, blurry check and specific processing logic for each problems.
 
@@ -184,7 +184,7 @@ params:
           name: "View the projects"
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [Viettel AI.](https://viettelai.vn/) in Hanoi, VN. I am currently working on a project that will be used to help organizations and businesses identify users (eKYC - Electronic Know Your Customer).
+          I am currently working as a software developer at [Viettel AI](https://viettelai.vn/) in Hanoi, VN. I am currently working on a project that will be used to help organizations and businesses identify users (eKYC - Electronic Know Your Customer).
 
           Only I am taking the work of integrating AI models into mobile devices. I had integrated face-detection, face-extraction, face-pose, finger-detection, ... and some image algorithms such as brightness check, blurry check and specific processing logic for each problems.
 
@@ -307,7 +307,7 @@ params:
         # url: https://example.com
         # image: fav.png
       - title: July 2021
-        content: IMPRESSIVE AWARD (Top 04 Call for Code) IBM Hackatho
+        content: IMPRESSIVE AWARD (Top 04 Call for Code) IBM Hackathon.
         # url: https://example.com
         # image: fav.png
       - title: 2020 - 2022
@@ -315,7 +315,7 @@ params:
         # url: https://example.com
       - title: 2020 - 2022
         content: Three times received the title “Student with five good merits” City level, school year 2018 - 2019, 2019 - 2020, 2020 - 2021
-        url: https://example.com
+        # url: https://example.com
 
 
   # projects
@@ -324,7 +324,13 @@ params:
     # title: "Custom Name"
     items:
       - title: Embedded System
-        content: A line-tracing robot ...
+        content: |
+          > There are so many causes associated with equivalent capstone projects, and Embedded Systems is one of them. Having worked as a teaching assistant for this project, I would like to showcase it on this site.
+
+          > This project involved not only electronic theories but also coding skills. I had to determine which component is suitable to control the wheel's movement, identify the component responsible for the car's ability to maintain a straight path or turn left/right. Additionally, the car required a controller to process data, make decisions for the next action, and ensure a sufficient supply of electrical power when all components were connected via wires.
+
+          > Moreover, I provided guidance to other students on using tools such as Proteus, Keil C51, and STM32CubeIDE. Students learned about the principles of KIT8051, STM32F103, and various electronic components including LED-7seg, Button, Buzzer, Relay, LCD, UART, and more.
+
         image: /images/projects/line_tracing.png
         featured:
           name: Demo
@@ -333,12 +339,20 @@ params:
           - "Adruino"
           - "L298N"
           - "Embedded"
+          - "Line-following"
         links:
-          - icon: fab fa-github
-            url: https://github.com/tronghaiit2/tronghaiit2.github.io
+          - icon: fa fa-envelope
+            url: mailto:tronghaixh2000@gmail.com?subject=Embedded%System&body=Check%20it%20out:%20https%3a%2f%2ftronghaiit2.github.io%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/tronghaiit2/tronghaiit2.github.io
 
       - title: Thesis project
-        content: A gnss monitoring system ...
+        content: |
+          > The main concept of the project is to monitor GNSS (Global Navigation Satellite System) signals and detect interferences. Two high techniques as C/N0 (Carrier-to-Noise-Density Ratio) and S4 index (ionospheric scintillation index) were used. When unusual incidents occur, C/N0 decreases below the threshold, and the S4 index increases rapidly.
+
+          > The User Interface is highly user-friendly. To control signal processing, users only need to click buttons for starting, ending, stopping, or resuming. Every complex task can run immediately, and results will be displayed in the C/N0 and S4 index tabs.
+
+          > The main process is built upon the GNSS_SDR open source. I only need to extract some calculated results and process them further to obtain the exact data I want. Programming techniques help transmit data through a message queue and display it sufficiently and precisely.
         image: /images/projects/thesis_project_system.png
         featured:
           name: Demo
@@ -350,12 +364,18 @@ params:
           - "Raspberry Pi 4"
         links:
           - icon: fa fa-envelope
-            url: mailto:tronghaixh2000@gmail.com?subject=Hi%20Trong%20Hai%20Nguyen&body=Check%20it%20out:%20https%3a%2f%2ftronghaiit2.github.io%2f
+            url: mailto:tronghaixh2000@gmail.com?subject=Thesis%20project&body=Check%20it%20out:%20https%3a%2f%2ftronghaiit2.github.io%2f
           - icon: fab fa-github
             url: https://github.com/tronghaiit2/gnss_sdr_linux
 
       - title: Freelance
-        content: Order food and beverage, and manage shippers ...
+        content: |
+          > This marked our team's first project. The purpose of project is focus on order management and delivery management. Key functions include ordering, delivery coordination, order history, delivery history, chat, user management, shipper management, and financial tracking.
+
+          > To complete the project, I assumed multiple roles such as the UI/UX designer, developer, and requirements analyst. But we failed  despite our six-month-long effort.  On the positive side, this project played a pivotal role in help me take on the position of software engineer at [Viettel AI](https://viettelai.vn/).
+
+          > Regarding my team, after some failures, we are growing together. If you are seeking outsourcing  in web development (using technologies like Spring Boot and Node JS), mobile app development (utilizing Flutter, Java, Kotlin, Objective-C, and Swift), or implementing automation CI/CD, please feel free to reach out via email.
+
         image: /images/projects/freelance.png
         featured:
           name: Demo
@@ -365,8 +385,10 @@ params:
           - "Java"
           - "Spring Boot"
         links:
-          - icon: fab fa-github
-            url: https://github.com/tronghaiit2/tronghaiit2.github.io
+          - icon: fa fa-envelope
+            url: mailto:tronghaixh2000@gmail.com?subject=Freelance&body=Check%20it%20out:%20https%3a%2f%2ftronghaiit2.github.io%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/tronghaiit2/tronghaiit2.github.io
 
   #Contact
   contact:
