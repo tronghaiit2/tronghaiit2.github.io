@@ -133,7 +133,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: /images/Resume_TRONG_HAI_NGUYEN.pdf
       download: true
       newPage: false
     socialLinks:
@@ -262,7 +262,8 @@ params:
         date: "2018 - 2023"
         GPA: "3.74 out of 4.0"
         content: |-
-          [Graduate Representative spoke at the 2023 Graduation Ceremony.](https://www.facebook.com/watch/?v=639165821073416)
+          Outstanding Graduate Student Award 2023.
+          > [Graduate Representative spoke at the 2023 Graduation Ceremony.](https://www.facebook.com/watch/?v=639165821073416)
           
           Extracurricular Activities
             - [Speaker at "Win U Game season 1 - Tips for survival at university".](https://www.facebook.com/FPTSoftware.tuyendung/videos/197143602443189) 
@@ -298,12 +299,12 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Oct 2023
-        content: THIRD PRIZE (Top 4) Viettel hearted AI challenges 2023.
-        # url: https://example.com
-        # image: fav.png
       - title: Nov 2019
         content: The Excellence Scholarship of Hanoi University of Science and Technology.
+        # url: https://example.com
+        # image: fav.png
+      - title: Oct 2023
+        content: THIRD PRIZE (Top 4) Viettel hearted AI challenges 2023.
         # url: https://example.com
         # image: fav.png
       - title: July 2021
@@ -352,7 +353,7 @@ params:
 
           > The User Interface is highly user-friendly. To control signal processing, users only need to click buttons for starting, ending, stopping, or resuming. Every complex task can run immediately, and results will be displayed in the C/N0 and S4 index tabs.
 
-          > The main process is built upon the GNSS_SDR open source. I only need to extract some calculated results and process them further to obtain the exact data I want. Programming techniques help transmit data through a message queue and display it sufficiently and precisely.
+          > [The main process is built upon the GNSS_SDR](https://gnss-sdr.org/) open source. I only need to extract some calculated results and process them further to obtain the exact data I want. Programming techniques help transmit data through a message queue and display it sufficiently and precisely.
         image: /images/projects/thesis_project_system.png
         featured:
           name: Demo
