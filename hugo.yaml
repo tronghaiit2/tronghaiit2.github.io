@@ -133,7 +133,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: /images/Resume_TRONG_HAI_NGUYEN.pdf
+      url: /images/CV_TRONG_HAI_LEARNING_ANALYTICS.pdf
       download: true
       newPage: false
     socialLinks:
@@ -176,9 +176,28 @@ params:
     # title: "Custom Name"
     items:
       - job: "Software Developer"
+        company: "Compax Digital"
+        companyUrl: "https://compaxdigital.com//"
+        date: "May 2024 - present"
+        info:
+          enable: true
+        content: |
+          I develope new features and libraries for our Billing system.
+          - Features related to customer events and account balance management. All data have to posted accurately to the General ledger.
+
+          I integrate automation report for unit tests.
+          - Complex logics must be tested automatically, categorized by event type.
+          
+          Technology stack:
+          - Programming languages: Java, SQL, PL/SQL, PL/pgSQL.  
+          - Databases / Data stores: PostgreSQL, Elasticsearch, Kafka, Redis. 
+          - Frameworks: Spring/Spring Boot, JSF, JPA/Hibernate. 
+          - CI/CD: Gitlab, Jenkins, Kubernetes.
+
+      - job: "Software Engineer"
         company: "Viettel AI"
         companyUrl: "https://viettelai.vn/en"
-        date: "March 2022 - present"
+        date: "March 2022 - May 2024"
         # featuredLink:
         #   enable: true
         #   name: "View the projects"
@@ -217,7 +236,6 @@ params:
         date: "Jul 2021 - Sep 2021"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
         content: |
           I used to work on Sharepoint, a web-based collaborative platform of Microsoft. This technology is based on C# and .Net. I supported customers in Singapore.
 
@@ -231,7 +249,6 @@ params:
         date: "Sep 2020 - Jan 2022"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
         content: |
           I am fortunate to have three semesters working as a teaching assistant at my university. My course list includes Introduction to Informatics, Introduction to ICT, Embedded Systems, and Microsoft Office.
 
