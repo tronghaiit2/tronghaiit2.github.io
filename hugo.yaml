@@ -124,7 +124,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Trong Hai Nguyen"
-    subtitle: "Software Engineer at Viettel AI"
+    subtitle: "Software Engineer"
     content: "A passionate software engineer. I integrate AI models into Mobile Devices (on Android and iOS) and design code for smooth processing with high performance."
     image: /images/HaiNT.jpg
     bottomImage:
@@ -152,23 +152,24 @@ params:
     title: "About Me"
     image: "/images/HaiNT.jpg"
     content: |-
-      I am a software developer with a passion for intelligent application development. I have a background in computer engineering and mathematics, and I have a strong interest in making information applications smarter. I am currently working as a software developer at [Viettel AI](https://viettelai.vn/) in Hanoi, VN. 
+        I am a software engineer with a passion for artificial intelligence. My background is in computer engineering and mathematics, then I persue a career in making information system become smarter. I used to work at Viettel AI and currently at CompaxDigital in Hanoi, Vietnam.
 
-      Only I am taking the work of integrating AI models into mobile devices. I had integrated face-detection, face-extraction, face-pose, finger-detection, … and some image algorithms such as brightness check, blurry check, and specific processing logic for each problem.
+        I had been integrating AI models into mobile devices. I had integrated face-detection, face-extraction, face-pose, finger-detection, … and some image algorithms such as brightness check, blurry check, and specific processing logic for each problem.
 
-      I am currently working on a project that will be used to help organizations and businesses identify users (eKYC - Electronic Know Your Customer).
-    
+        A remarkable project is Viettel eKYC (Electronic Know Your Customer). An application that has achieved level 2 ISO/IEC 30107-3:2023 certification, is helping organizations and businesses identify users and anti spoofing.
+
+        I am one of the authors of the pattern "Automated method for capturing and enhancing the quality of contactless fingerprint image", which was accepted by Intellectual Property Office of Viet Nam and is waiting publication.
 
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Flutter"
         - "Java"
         - "Kotlin"
+        - "Flutter"
         - "C/C++"
-        - "Objective-C"
-        - "Swift"
+        - "Python"
+        - "SQL"
 
   # Experience
   experience:
